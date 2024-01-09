@@ -1,0 +1,67 @@
+.top{
+    height: 33%;
+    padding-left: 120px;
+    padding-top: 36px;
+    padding-right: 905px;
+}
+.mid{
+    height: 33%;
+}
+.bot{
+    height: 33%;
+}
+.top .logo{
+    display: flex;
+    width: 168px;
+    height: 44px;
+    justify-content: center;
+    align-items: flex-start;
+    flex-shrink: 0;
+}
+.top .text1{
+    display: flex;
+    width: 63px;
+    height: 44px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #00C2FF;
+    font-family: Nunito;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.top .text2{
+    display: flex;
+    width: 105px;
+    height: 44px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: var(--Primary, #0075FF);
+    font-family: Nunito;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.top nav{
+    width: 382px;
+    height: 44px;
+    display: inline-flex;
+    align-items: flex-start;
+}
+.top nav .frame1{
+    display: flex;
+    height: 44px;
+    padding: 11px 19px 9px 22px;
+    align-items: flex-start;
+    gap: 10px;
+    color: var(--Text, #FFF);
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
